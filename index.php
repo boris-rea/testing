@@ -11,6 +11,7 @@ final class Singleton
      */
     public static function getInstance(): Singleton
     {
+	$toto = $tata ?? 'ok';
         if (null === static::$instance) {
             static::$instance = new static();
         }
