@@ -13,12 +13,16 @@ final class Singleton
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	$toto = $tata ?? 'ok';
 =======
 >>>>>>> index
 =======
 	$toto = $tata ?? 'ok';
 >>>>>>> php7
+=======
+	$toto = $tata ?? 'ok';
+>>>>>>> 8361bdded3290d9f41ce599a7db9fd9daaf7277b
         if (null === static::$instance) {
             static::$instance = new static();
         }
